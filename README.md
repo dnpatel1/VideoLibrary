@@ -4,9 +4,8 @@ A video rental application created in react. This project is bootstrapped with [
 
 ## Git Branches Info
 
-- Master - Working Production code
-- Develop - Most recent working development code - (Merges with master before deployment)
-- Enhancement - Working on new feature of stable development branch - (Merges with Dev)
+- master - Working Production code
+- develop - Most recent working development code - (Merges with master before deployment)
 
 ## Installation
 
@@ -25,7 +24,7 @@ npm run dev
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Built With the following npm packages
+## Built With
 
 - [React Router](#)
 - [React Component](#)
