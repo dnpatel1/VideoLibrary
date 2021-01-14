@@ -55,7 +55,7 @@ class Movies extends Component {
     if (count === 0)
       return <h4 className="m-4">There are no movies in database</h4>;
 
-    //if filter is present then filter before pagination
+    //if filter is present then filter before pagination...
     const filteredMovies =
       activeGenre === null
         ? allMovies.filter((x) => x.genre._id === activeGenre._id)
