@@ -55,8 +55,8 @@ class Movies extends Component {
     const { length: count } = this.state.movies;
     const { activeGenre, movies, sortColumn } = this.state;
     console.log("movies :" + movies.length);
-    console.log("activeGenre:");
-    console.log(activeGenre);
+    console.log("sortColumn:");
+    console.log(sortColumn);
 
     if (count === 0)
       return <h4 className="m-4">There are no movies in database</h4>;
